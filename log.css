@@ -1,0 +1,89 @@
+body{
+    border:2px solid black;
+    width: 500px;
+    height:600px;
+    font-family: Arial,sans-serif;
+    position:relative;
+    top:130px;
+    left:450px;
+    border-radius: 20px;
+}
+
+section{
+    background-color:white;
+}
+.head{
+    font-size: 40px;
+    position:relative;
+    top:20px;
+    left:180px;
+}
+
+.mail , .pass{
+    height: 30px;
+    width: 300px;
+    margin-left: 80px;
+    padding-left: 20px;
+    font-size: 17px;
+    margin-top: 30px;
+    box-shadow: 2px 2px 3px black;
+    border-radius: 7px;
+}
+
+.for{
+    margin-left: 180px;
+    padding-top: 10px;
+    text-decoration: none;
+}
+
+.log{
+    height: 35px;
+    width: 325px;
+    margin-left: 80px;
+    padding-left: 20px;
+    font-size: 17px;
+    margin-top: 30px;
+    color:white;
+    background-color:rgb(104,97,242);
+    border-radius: 5px;
+    box-shadow: 2px 2px 3px black;
+}
+
+.face{
+    height: 35px;
+    width: 325px;
+    margin-left: 80px;
+    padding-left: 20px;
+    font-size: 17px;
+    margin-top: 30px;
+    color:white;
+    background-color:rgb(67, 67, 232);
+    border-radius: 7px;
+    box-shadow: 2px 2px 3px black;
+    
+}
+.goog{
+    height: 35px;
+    width: 325px;
+    margin-left: 80px;
+    padding-left: 20px;
+    font-size: 17px;
+    margin-top: 30px;
+    color:black;
+    background-color:white;
+    border-radius: 7px;
+    box-shadow: 2px 2px 3px black;
+}   
+
+.sig{
+    display: inline-block;
+    margin-left:120px ;
+}
+
+body:hover{
+    background-color: aliceblue;
+    box-shadow: 2px 2px 15px black;
+    transition-duration: 1.5s;
+    transition-delay: 0.1;
+    transition-timing-function: ease-in;
+}
